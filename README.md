@@ -2,11 +2,15 @@
 
 Checkout my gists [here](https://gist.github.com/XaviFortes), it's not much but it's honest work
 
-![Xavi's GitHub stats](https://github-readme-stats.vercel.app/api?username=xavifortes&show_icons=true&theme=tokyonight)
+![Xavi's GitHub stats](https://github-readme-stats.vercel.app/api?username=xavifortes&show_icons=true&bg_color=00000000&hide_border=true&theme=tokyonight&show=prs_merged,prs_merged_percentage)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=xavifortes&layout=compact&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=xavifortes&layout=compact&bg_color=00000000&hide_border=true&theme=tokyonight&langs_count=8&exclude_repo=litecoin,PipoCoin)
 
-[![Xavi's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=xavifortes&theme=tokyonight)](https://github.com/xavifortes)
+
+
+<!--
+[![Xavi's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=xavifortes&bg_color=00000000&hide_border=true&theme=tokyonight)](https://github.com/xavifortes)
+-->
 <!--
 **XaviFortes/XaviFortes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
