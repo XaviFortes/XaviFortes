@@ -2,7 +2,7 @@
 
 Checkout my gists [here](https://gist.github.com/XaviFortes), it's not much but it's honest work
 
-![Xavi's GitHub stats](https://github-readme-stats.vercel.app/api?username=xavifortes&show_icons=true&bg_color=00000000&hide_border=true&theme=tokyonight&include_all_commits=true&show=prs_merged,prs_merged_percentage)
+![Xavi's GitHub stats](https://github-readme-stats.vercel.app/api?username=xavifortes&show_icons=true&bg_color=00000000&hide_border=true&theme=tokyonight&rank_icon=percentile&include_all_commits=true&show=prs_merged,prs_merged_percentage)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=xavifortes&layout=compact&bg_color=00000000&hide_border=true&theme=tokyonight&langs_count=8&exclude_repo=litecoin,PipoCoin)
 
