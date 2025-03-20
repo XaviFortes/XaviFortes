@@ -6,6 +6,7 @@ Checkout my gists [here](https://gist.github.com/XaviFortes), it's not much but 
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=xavifortes&layout=compact&bg_color=00000000&hide_border=true&theme=tokyonight&langs_count=8&exclude_repo=litecoin,PipoCoin)
 
+[![committers.top badge](https://user-badge.committers.top/spain/xavifortes.svg)](https://user-badge.committers.top/spain/xavifortes)
 
 
 <!--
