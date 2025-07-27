@@ -9,7 +9,7 @@ Checkout my gists [here](https://gist.github.com/XaviFortes), it's not much but 
 [![committers.top badge](https://user-badge.committers.top/spain/xavifortes.svg)](https://user-badge.committers.top/spain/xavifortes)
 
 <a href="https://github.com/xavifortes">
-  <img src="https://github-profile-trophy.vercel.app/?username=xavifortes&theme=radical" />
+  <img src="https://github-profile-trophy.vercel.app/?username=xavifortes&theme=radical&no-bg=true&no-frame=true" />
 </a>
 
 
