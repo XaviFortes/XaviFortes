@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-Checkout my gists [here](https://gist.github.com/XaviFortes), it's not much but it's honest work
+Checkout my gists [here](https://gist.github.com/XaviFortes)
 
 ![Xavi's GitHub stats](https://github-readme-stats.vercel.app/api?username=xavifortes&show_icons=true&bg_color=00000000&hide_border=true&theme=tokyonight&rank_icon=percentile&include_all_commits=true&show=prs_merged,prs_merged_percentage)
 
