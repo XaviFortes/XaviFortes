@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Render live GitHub metrics as xfOS-styled SVG cards.
+"""Render live GitHub metrics as xfos-styled SVG cards.
 
 Pulls everything from the GitHub GraphQL API and writes static SVGs into
 assets/gen/. Run from CI so the README never depends on a third-party card
 service being up.
 
-    GITHUB_TOKEN=... python3 tools/xfOS-cards.py [--user XaviFortes]
+    GITHUB_TOKEN=... python3 tools/xfos-cards.py [--user XaviFortes]
 """
 from __future__ import annotations
 

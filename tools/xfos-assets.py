@@ -5,9 +5,9 @@ Writes assets/banner.svg, assets/stack.svg, assets/footer.svg and the
 assets/hdr-*.svg section headers. These change rarely — rerun by hand after
 editing the copy or the palette below:
 
-    python3 tools/xfOS-assets.py
+    python3 tools/xfos-assets.py
 
-Live numbers are handled separately by tools/xfOS-cards.py.
+Live numbers are handled separately by tools/xfos-cards.py.
 """
 import base64
 import math

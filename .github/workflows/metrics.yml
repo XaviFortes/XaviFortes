@@ -29,7 +29,7 @@ jobs:
       - name: Render
         env:
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
-        run: python3 tools/xfOS-cards.py --user "${{ github.repository_owner }}"
+        run: python3 tools/xfos-cards.py --user "${{ github.repository_owner }}"
 
       - name: Commit
         run: |

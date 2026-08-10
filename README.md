@@ -84,8 +84,8 @@
 
 <!--
   Panels regenerate themselves:
-    assets/gen/*     tools/xfOS-cards.py    — daily, GitHub GraphQL API
+    assets/gen/*     tools/xfos-cards.py    — daily, GitHub GraphQL API
     metrics/*        lowlighter/metrics     — daily, .github/workflows/metrics.yml
     snake.svg        Platane/snk            — daily, pushed to the `output` branch
-    assets/*.svg     tools/xfOS-assets.py   — static chrome, rerun by hand
+    assets/*.svg     tools/xfos-assets.py   — static chrome, rerun by hand
 -->
