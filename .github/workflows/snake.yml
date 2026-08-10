@@ -1,0 +1,40 @@
+name: Snake
+
+# Renders the contribution grid as a snake animation in xfOS cyan.
+# Output is pushed to the `output` branch and referenced from the README
+# via raw.githubusercontent.com, so it never clutters `main`.
+
+on:
+  schedule:
+    - cron: "43 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths:
+      - ".github/workflows/snake.yml"
+
+concurrency:
+  group: snake
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Generate
+        uses: Platane/snk@v3
+        id: snake
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?color_snake=#22E6FF&color_dots=#08161C,#0D4453,#12708A,#17A8CA,#22E6FF
+
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

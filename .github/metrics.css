@@ -1,0 +1,79 @@
+/* ---------------------------------------------------------------------------
+   xfOS terminal skin for lowlighter/metrics (template: terminal)
+   Injected into every metrics panel via the `extras_css` input in metrics.yml.
+   Palette matches assets/*.svg:
+     bg #04090C | panel #071319 | line #0E3A47 / #10505F
+     cyan #22E6FF | text #CFE6EC | dim #4C7480 | amber #FFB020 | red #FF3355
+--------------------------------------------------------------------------- */
+
+svg {
+  background: #04090C;
+  color: #CFE6EC;
+}
+
+/* terminal chrome ---------------------------------------------------------- */
+.header {
+  background: linear-gradient(#0E3A47 0, #071319 100%) !important;
+  border: 1px solid #10505F !important;
+  border-bottom: none !important;
+  border-radius: 0 !important;
+  height: 22px !important;
+}
+
+.title {
+  color: #22E6FF !important;
+  letter-spacing: 1.6px;
+  font-size: 13px !important;
+}
+
+.button {
+  background: linear-gradient(#12414d 0, #0a2730 100%) !important;
+  color: #04090C !important;
+  border-radius: 0 !important;
+  text-shadow: none !important;
+}
+
+.button.exit {
+  background: linear-gradient(#FF3355 0, #8f1226 100%) !important;
+}
+
+/* terminal body — scanlines over near-black ------------------------------- */
+pre {
+  background:
+    repeating-linear-gradient(180deg, rgba(34, 230, 255, 0.035) 0 1px, transparent 1px 3px),
+    #04090C !important;
+  color: #CFE6EC !important;
+  border: 1px solid #0E3A47 !important;
+  border-top: none !important;
+  border-radius: 0 !important;
+}
+
+.banner,
+footer {
+  color: #4C7480 !important;
+}
+
+/* prompt ------------------------------------------------------------------- */
+.ps1-path { color: #22E6FF !important; }
+.ps1-location { color: #FFB020 !important; }
+
+a { color: #22E6FF !important; }
+
+/* contribution calendar — cyan ramp instead of GitHub green ---------------- */
+.isocalendar svg {
+  filter: none !important;
+  margin-top: -20px !important;
+}
+
+:root {
+  --color-calendar-graph-day-bg: #08161C;
+  --color-calendar-graph-day-border: rgba(34, 230, 255, 0.08);
+  --color-calendar-graph-day-L1-bg: #0D4453;
+  --color-calendar-graph-day-L2-bg: #12708A;
+  --color-calendar-graph-day-L3-bg: #17A8CA;
+  --color-calendar-graph-day-L4-bg: #22E6FF;
+  --color-calendar-graph-day-L1-border: rgba(34, 230, 255, 0.08);
+  --color-calendar-graph-day-L2-border: rgba(34, 230, 255, 0.08);
+  --color-calendar-graph-day-L3-border: rgba(34, 230, 255, 0.08);
+  --color-calendar-graph-day-L4-border: rgba(34, 230, 255, 0.08);
+}

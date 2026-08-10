@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 150" width="490" height="150"
+     font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" role="img" aria-label="shellnet-infrastructure repository card">
+
+  <defs>
+    <pattern id="scanR2" width="3" height="3" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="2.5" x2="3" y2="2.5" stroke="#22E6FF" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <pattern id="gridR2" width="34" height="20" patternUnits="userSpaceOnUse">
+      <path d="M0 10 L8.5 0 L25.5 0 L34 10 L25.5 20 L8.5 20 Z" fill="none"
+            stroke="#22E6FF" stroke-opacity="0.05" stroke-width="0.8"/>
+    </pattern>
+    <clipPath id="clipR2"><rect x="0" y="0" width="490" height="150"/></clipPath>
+  </defs>
+  <g clip-path="url(#clipR2)">
+    <rect width="490" height="150" fill="#04090C"/>
+    <rect width="490" height="150" fill="url(#gridR2)"/>
+    <rect width="490" height="150" fill="url(#scanR2)"/>
+    <rect x="0" y="0" width="490" height="2" fill="#22E6FF" opacity="0">
+      <animate attributeName="y" values="0;150;0" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.25;0" dur="8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="1" y="1" width="488" height="148" fill="none" stroke="#0E3A47" stroke-width="1.4"/>
+  <g stroke="#22E6FF" stroke-width="1.8" fill="none" stroke-linecap="square">
+    <path d="M9,25 L9,9 L25,9"/>
+    <path d="M465,9 L481,9 L481,25"/>
+    <path d="M481,125 L481,141 L465,141"/>
+    <path d="M25,141 L9,141 L9,125"/>
+  </g>
+  <rect x="9" y="9" width="472" height="26" fill="#22E6FF" fill-opacity="0.06"/>
+  <line x1="9" y1="35" x2="481" y2="35" stroke="#0E3A47" stroke-width="1"/>
+  <text x="24" y="27" font-size="12.5" fill="#22E6FF" letter-spacing="2.6">&#9656; SHELLNET-INFRASTRUCTURE</text>
+  <text x="466" y="27" font-size="10.5" fill="#4C7480" letter-spacing="1.8"
+        text-anchor="end">HCL</text>
+  <text x="26" y="58" font-size="10" fill="#4C7480" letter-spacing="1.4">LAST WRITE 2026.05.16</text>
+  <text x="464" y="58" font-size="10" fill="#FFB020" text-anchor="end" letter-spacing="1.2">STARS 001 &#183; FORKS 000</text>
+  <line x1="26" y1="68" x2="464" y2="68" stroke="#0E3A47" stroke-width="1"/>
+  <text x="26" y="88" font-size="11.5" fill="#4C7480">No description on file.</text>
+  
+</svg>

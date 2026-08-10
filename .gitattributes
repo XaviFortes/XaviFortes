@@ -1,0 +1,4 @@
+# Generated panels — collapse them in diffs and keep them out of language stats
+assets/gen/*.svg  linguist-generated=true
+metrics/*.svg     linguist-generated=true
+assets/banner.svg linguist-generated=true

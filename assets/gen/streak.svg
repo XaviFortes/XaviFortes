@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 268" width="490" height="268"
+     font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" role="img" aria-label="Contribution streak">
+
+  <defs>
+    <pattern id="scanSK" width="3" height="3" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="2.5" x2="3" y2="2.5" stroke="#22E6FF" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <pattern id="gridSK" width="34" height="20" patternUnits="userSpaceOnUse">
+      <path d="M0 10 L8.5 0 L25.5 0 L34 10 L25.5 20 L8.5 20 Z" fill="none"
+            stroke="#22E6FF" stroke-opacity="0.05" stroke-width="0.8"/>
+    </pattern>
+    <clipPath id="clipSK"><rect x="0" y="0" width="490" height="268"/></clipPath>
+  </defs>
+  <g clip-path="url(#clipSK)">
+    <rect width="490" height="268" fill="#04090C"/>
+    <rect width="490" height="268" fill="url(#gridSK)"/>
+    <rect width="490" height="268" fill="url(#scanSK)"/>
+    <rect x="0" y="0" width="490" height="2" fill="#22E6FF" opacity="0">
+      <animate attributeName="y" values="0;268;0" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.25;0" dur="8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="1" y="1" width="488" height="266" fill="none" stroke="#0E3A47" stroke-width="1.4"/>
+  <g stroke="#22E6FF" stroke-width="1.8" fill="none" stroke-linecap="square">
+    <path d="M9,25 L9,9 L25,9"/>
+    <path d="M465,9 L481,9 L481,25"/>
+    <path d="M481,243 L481,259 L465,259"/>
+    <path d="M25,259 L9,259 L9,243"/>
+  </g>
+  <rect x="9" y="9" width="472" height="26" fill="#22E6FF" fill-opacity="0.06"/>
+  <line x1="9" y1="35" x2="481" y2="35" stroke="#0E3A47" stroke-width="1"/>
+  <text x="24" y="27" font-size="12.5" fill="#22E6FF" letter-spacing="2.6">STREAK ANALYSIS</text>
+  <text x="466" y="27" font-size="10.5" fill="#4C7480" letter-spacing="1.8"
+        text-anchor="end">xfOS/0x02</text>
+  <text x="26" y="56" font-size="10.5" fill="#4C7480" letter-spacing="1.4">CONTRIBUTION CONTINUITY &#183; 429 ACTIVE DAYS / 2580</text>
+
+  <line x1="167.0" y1="72" x2="167.0" y2="192" stroke="#0E3A47" stroke-width="1"/>
+  <line x1="323.0" y1="72" x2="323.0" y2="192" stroke="#0E3A47" stroke-width="1"/>
+
+  <text x="137.0" y="106" font-size="26" fill="#CFE6EC" text-anchor="middle">5.2k</text>
+  <text x="137.0" y="126" font-size="10.5" fill="#4C7480" text-anchor="middle" letter-spacing="1.4">TOTAL</text>
+  <text x="137.0" y="150" font-size="9.5" fill="#4C7480" text-anchor="middle">19 JUL 2019</text>
+
+  <circle cx="245.0" cy="118" r="46" fill="none" stroke="#0E3A47" stroke-width="6"/>
+  <circle cx="245.0" cy="118" r="46" fill="none" stroke="#22E6FF" stroke-width="6"
+          stroke-linecap="butt" stroke-dasharray="289" stroke-dashoffset="289"
+          transform="rotate(-90 245.0 118)">
+    <animate attributeName="stroke-dashoffset" values="289;266"
+             dur="1.4s" fill="freeze"/>
+  </circle>
+  <text x="245.0" y="114" font-size="30" fill="#22E6FF" text-anchor="middle">10</text>
+  <text x="245.0" y="134" font-size="9.5" fill="#4C7480" text-anchor="middle" letter-spacing="1.4">DAY STREAK</text>
+  <text x="245.0" y="182" font-size="9.5" fill="#4C7480" text-anchor="middle">01 AUG 2026 &#8594; 10 AUG 2026</text>
+
+  <text x="353.0" y="106" font-size="26" fill="#FFB020" text-anchor="middle">126</text>
+  <text x="353.0" y="126" font-size="10.5" fill="#4C7480" text-anchor="middle" letter-spacing="1.4">LONGEST</text>
+  <text x="353.0" y="150" font-size="9.5" fill="#4C7480" text-anchor="middle">28 AUG 2025</text>
+
+  <text x="26" y="212" font-size="10" fill="#4C7480" letter-spacing="1.4">LAST 120 DAYS &#183; PEAK 105 ON 01 AUG 2026</text>
+  <polyline points="30.0,232.0 33.6,232.0 37.2,232.0 40.8,232.0 44.5,232.0 48.1,232.0 51.7,232.0 55.3,232.0 58.9,232.0 62.5,232.0 66.1,232.0 69.7,232.0 73.4,232.0 77.0,232.0 80.6,232.0 84.2,232.0 87.8,232.0 91.4,232.0 95.0,232.0 98.7,232.0 102.3,232.0 105.9,232.0 109.5,229.7 113.1,232.0 116.7,232.0 120.3,232.0 123.9,232.0 127.6,216.0 131.2,228.0 134.8,230.9 138.4,231.7 142.0,230.9 145.6,231.7 149.2,225.4 152.9,232.0 156.5,232.0 160.1,232.0 163.7,231.1 167.3,232.0 170.9,232.0 174.5,232.0 178.2,232.0 181.8,228.9 185.4,229.7 189.0,232.0 192.6,232.0 196.2,228.6 199.8,229.1 203.4,231.4 207.1,232.0 210.7,232.0 214.3,232.0 217.9,232.0 221.5,232.0 225.1,232.0 228.7,232.0 232.4,232.0 236.0,232.0 239.6,232.0 243.2,231.1 246.8,232.0 250.4,226.3 254.0,231.1 257.6,232.0 261.3,232.0 264.9,232.0 268.5,231.7 272.1,232.0 275.7,232.0 279.3,232.0 282.9,232.0 286.6,232.0 290.2,228.3 293.8,231.7 297.4,232.0 301.0,232.0 304.6,232.0 308.2,231.7 311.8,232.0 315.5,232.0 319.1,232.0 322.7,232.0 326.3,232.0 329.9,232.0 333.5,232.0 337.1,232.0 340.8,232.0 344.4,230.3 348.0,229.7 351.6,230.6 355.2,231.4 358.8,230.6 362.4,232.0 366.1,232.0 369.7,232.0 373.3,232.0 376.9,232.0 380.5,232.0 384.1,232.0 387.7,232.0 391.3,232.0 395.0,230.6 398.6,232.0 402.2,230.6 405.8,226.0 409.4,229.4 413.0,216.0 416.6,231.4 420.3,232.0 423.9,232.0 427.5,202.0 431.1,221.1 434.7,226.9 438.3,218.3 441.9,223.4 445.5,226.9 449.2,213.1 452.8,217.4 456.4,231.1 460.0,230.6" fill="none" stroke="#22E6FF" stroke-width="1.5" stroke-opacity="0.85"/>
+  <line x1="30" y1="234" x2="460" y2="234" stroke="#0E3A47" stroke-width="1"/>
+</svg>

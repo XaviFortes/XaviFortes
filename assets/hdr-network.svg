@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 46" width="1000" height="46"
+     font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" role="img" aria-label="NETWORK ACCESS">
+
+  <defs>
+    <pattern id="scanH5" width="3" height="3" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="2.5" x2="3" y2="2.5" stroke="#22E6FF" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <pattern id="gridH5" width="34" height="20" patternUnits="userSpaceOnUse">
+      <path d="M0 10 L8.5 0 L25.5 0 L34 10 L25.5 20 L8.5 20 Z" fill="none"
+            stroke="#22E6FF" stroke-opacity="0.05" stroke-width="0.8"/>
+    </pattern>
+    <linearGradient id="vigH5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000" stop-opacity="0.55"/>
+      <stop offset="22%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="78%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="glowH5" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22E6FF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22E6FF" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#22E6FF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clipH5"><rect x="0" y="0" width="1000" height="46"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#clipH5)">
+    <rect width="1000" height="46" fill="#04090C"/>
+    <rect width="1000" height="46" fill="url(#gridH5)"/>
+    <rect width="1000" height="46" fill="url(#scanH5)"/>
+    <rect width="1000" height="46" fill="url(#vigH5)"/>
+  </g>
+  <path d="M0,0 L174.4,0 L190.4,46 L0,46 Z" fill="#22E6FF" fill-opacity="0.14"/>
+  <path d="M0,0 L174.4,0 L190.4,46 L0,46 Z" fill="none" stroke="#22E6FF" stroke-opacity="0.55" stroke-width="1.4"/>
+  <rect x="0" y="0" width="4" height="46" fill="#22E6FF"/>
+  <text x="18" y="29" font-size="15" fill="#22E6FF" letter-spacing="3.2">NETWORK ACCESS</text>
+  <line x1="202.4" y1="23.0" x2="850" y2="23.0" stroke="#0E3A47" stroke-width="1"/>
+  <rect x="208.4" y="26" width="6" height="2" fill="#10505F"/><rect x="222.4" y="26" width="6" height="2" fill="#10505F"/><rect x="236.4" y="26" width="6" height="2" fill="#10505F"/><rect x="250.4" y="26" width="6" height="2" fill="#10505F"/><rect x="264.4" y="26" width="6" height="2" fill="#10505F"/><rect x="278.4" y="26" width="6" height="2" fill="#10505F"/><rect x="292.4" y="26" width="6" height="2" fill="#10505F"/><rect x="306.4" y="26" width="6" height="2" fill="#10505F"/><rect x="320.4" y="26" width="6" height="2" fill="#10505F"/><rect x="334.4" y="26" width="6" height="2" fill="#10505F"/><rect x="348.4" y="26" width="6" height="2" fill="#10505F"/><rect x="362.4" y="26" width="6" height="2" fill="#10505F"/><rect x="376.4" y="26" width="6" height="2" fill="#10505F"/><rect x="390.4" y="26" width="6" height="2" fill="#10505F"/><rect x="404.4" y="26" width="6" height="2" fill="#10505F"/><rect x="418.4" y="26" width="6" height="2" fill="#10505F"/><rect x="432.4" y="26" width="6" height="2" fill="#10505F"/><rect x="446.4" y="26" width="6" height="2" fill="#10505F"/><rect x="460.4" y="26" width="6" height="2" fill="#10505F"/><rect x="474.4" y="26" width="6" height="2" fill="#10505F"/><rect x="488.4" y="26" width="6" height="2" fill="#10505F"/><rect x="502.4" y="26" width="6" height="2" fill="#10505F"/><rect x="516.4" y="26" width="6" height="2" fill="#10505F"/><rect x="530.4" y="26" width="6" height="2" fill="#10505F"/><rect x="544.4" y="26" width="6" height="2" fill="#10505F"/><rect x="558.4" y="26" width="6" height="2" fill="#10505F"/><rect x="572.4" y="26" width="6" height="2" fill="#10505F"/><rect x="586.4" y="26" width="6" height="2" fill="#10505F"/><rect x="600.4" y="26" width="6" height="2" fill="#10505F"/><rect x="614.4" y="26" width="6" height="2" fill="#10505F"/><rect x="628.4" y="26" width="6" height="2" fill="#10505F"/><rect x="642.4" y="26" width="6" height="2" fill="#10505F"/><rect x="656.4" y="26" width="6" height="2" fill="#10505F"/><rect x="670.4" y="26" width="6" height="2" fill="#10505F"/><rect x="684.4" y="26" width="6" height="2" fill="#10505F"/><rect x="698.4" y="26" width="6" height="2" fill="#10505F"/><rect x="712.4" y="26" width="6" height="2" fill="#10505F"/><rect x="726.4" y="26" width="6" height="2" fill="#10505F"/><rect x="740.4" y="26" width="6" height="2" fill="#10505F"/><rect x="754.4" y="26" width="6" height="2" fill="#10505F"/><rect x="768.4" y="26" width="6" height="2" fill="#10505F"/>
+  <text x="864" y="29" font-size="11.5" fill="#4C7480" letter-spacing="2">SEC://0x06</text>
+  <rect x="0" y="44.8" width="1000" height="1.2" fill="#10505F"/>
+  <rect x="0" y="44.8" width="120" height="1.2" fill="#22E6FF">
+    <animate attributeName="x" values="-120;1000;-120" dur="9s" repeatCount="indefinite"/>
+  </rect>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 280" width="490" height="280"
+     font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" role="img" aria-label="GitHub statistics">
+
+  <defs>
+    <pattern id="scanST" width="3" height="3" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="2.5" x2="3" y2="2.5" stroke="#22E6FF" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <pattern id="gridST" width="34" height="20" patternUnits="userSpaceOnUse">
+      <path d="M0 10 L8.5 0 L25.5 0 L34 10 L25.5 20 L8.5 20 Z" fill="none"
+            stroke="#22E6FF" stroke-opacity="0.05" stroke-width="0.8"/>
+    </pattern>
+    <clipPath id="clipST"><rect x="0" y="0" width="490" height="280"/></clipPath>
+  </defs>
+  <g clip-path="url(#clipST)">
+    <rect width="490" height="280" fill="#04090C"/>
+    <rect width="490" height="280" fill="url(#gridST)"/>
+    <rect width="490" height="280" fill="url(#scanST)"/>
+    <rect x="0" y="0" width="490" height="2" fill="#22E6FF" opacity="0">
+      <animate attributeName="y" values="0;280;0" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.25;0" dur="8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="1" y="1" width="488" height="278" fill="none" stroke="#0E3A47" stroke-width="1.4"/>
+  <g stroke="#22E6FF" stroke-width="1.8" fill="none" stroke-linecap="square">
+    <path d="M9,25 L9,9 L25,9"/>
+    <path d="M465,9 L481,9 L481,25"/>
+    <path d="M481,255 L481,271 L465,271"/>
+    <path d="M25,271 L9,271 L9,255"/>
+  </g>
+  <rect x="9" y="9" width="472" height="26" fill="#22E6FF" fill-opacity="0.06"/>
+  <line x1="9" y1="35" x2="481" y2="35" stroke="#0E3A47" stroke-width="1"/>
+  <text x="24" y="27" font-size="12.5" fill="#22E6FF" letter-spacing="2.6">SUBJECT STATS</text>
+  <text x="466" y="27" font-size="10.5" fill="#4C7480" letter-spacing="1.8"
+        text-anchor="end">xfOS/0x01</text>
+  <text x="26" y="56" font-size="10.5" fill="#4C7480" letter-spacing="1.4">LIFETIME RECORD &#183; SYNCED 2026.08.10 20:43 UTC</text>
+  <rect x="26" y="69" width="3" height="22" fill="#22E6FF" opacity="0.55"/><text x="40" y="86" font-size="11.5" fill="#4C7480" letter-spacing="1.6">COMMITS</text><text x="232" y="86" font-size="17" fill="#22E6FF" text-anchor="end">5k</text><line x1="40" y1="95" x2="232" y2="95" stroke="#0E3A47" stroke-width="1"/>
+  <rect x="258" y="69" width="3" height="22" fill="#FFB020" opacity="0.55"/><text x="272" y="86" font-size="11.5" fill="#4C7480" letter-spacing="1.6">STARS EARNED</text><text x="464" y="86" font-size="17" fill="#FFB020" text-anchor="end">77</text><line x1="272" y1="95" x2="464" y2="95" stroke="#0E3A47" stroke-width="1"/>
+  <rect x="26" y="107" width="3" height="22" fill="#22E6FF" opacity="0.55"/><text x="40" y="124" font-size="11.5" fill="#4C7480" letter-spacing="1.6">PULL REQS</text><text x="232" y="124" font-size="17" fill="#22E6FF" text-anchor="end">98</text><line x1="40" y1="133" x2="232" y2="133" stroke="#0E3A47" stroke-width="1"/>
+  <rect x="258" y="107" width="3" height="22" fill="#22E6FF" opacity="0.55"/><text x="272" y="124" font-size="11.5" fill="#4C7480" letter-spacing="1.6">ISSUES</text><text x="464" y="124" font-size="17" fill="#22E6FF" text-anchor="end">85</text><line x1="272" y1="133" x2="464" y2="133" stroke="#0E3A47" stroke-width="1"/>
+  <rect x="26" y="145" width="3" height="22" fill="#22E6FF" opacity="0.55"/><text x="40" y="162" font-size="11.5" fill="#4C7480" letter-spacing="1.6">REVIEWS</text><text x="232" y="162" font-size="17" fill="#22E6FF" text-anchor="end">35</text><line x1="40" y1="171" x2="232" y2="171" stroke="#0E3A47" stroke-width="1"/>
+  <rect x="258" y="145" width="3" height="22" fill="#22E6FF" opacity="0.55"/><text x="272" y="162" font-size="11.5" fill="#4C7480" letter-spacing="1.6">FORKS</text><text x="464" y="162" font-size="17" fill="#22E6FF" text-anchor="end">29</text><line x1="272" y1="171" x2="464" y2="171" stroke="#0E3A47" stroke-width="1"/>
+  <rect x="26" y="183" width="3" height="22" fill="#22E6FF" opacity="0.55"/><text x="40" y="200" font-size="11.5" fill="#4C7480" letter-spacing="1.6">REPOS</text><text x="232" y="200" font-size="17" fill="#22E6FF" text-anchor="end">48</text><line x1="40" y1="209" x2="232" y2="209" stroke="#0E3A47" stroke-width="1"/>
+  <rect x="258" y="183" width="3" height="22" fill="#22E6FF" opacity="0.55"/><text x="272" y="200" font-size="11.5" fill="#4C7480" letter-spacing="1.6">CONTRIB TO</text><text x="464" y="200" font-size="17" fill="#22E6FF" text-anchor="end">2</text><line x1="272" y1="209" x2="464" y2="209" stroke="#0E3A47" stroke-width="1"/>
+  <rect x="26" y="221" width="3" height="22" fill="#39FF8F" opacity="0.55"/><text x="40" y="238" font-size="11.5" fill="#4C7480" letter-spacing="1.6">FOLLOWERS</text><text x="232" y="238" font-size="17" fill="#39FF8F" text-anchor="end">14</text><line x1="40" y1="247" x2="232" y2="247" stroke="#0E3A47" stroke-width="1"/>
+  <rect x="258" y="221" width="3" height="22" fill="#22E6FF" opacity="0.55"/><text x="272" y="238" font-size="11.5" fill="#4C7480" letter-spacing="1.6">GISTS</text><text x="464" y="238" font-size="17" fill="#22E6FF" text-anchor="end">4</text><line x1="272" y1="247" x2="464" y2="247" stroke="#0E3A47" stroke-width="1"/>
+</svg>
