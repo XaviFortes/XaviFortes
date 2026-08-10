@@ -1,11 +1,6 @@
 <div align="center">
 
-```bash
-$ ctos --scan xavifortes
-ALIAS.....: XaviFortes
-ROLE......: Security Researcher
-STATUS....: online
-```
+![scan](banner.svg)
 
 [gists →](https://gist.github.com/XaviFortes)
 
