@@ -216,7 +216,7 @@ def banner():
 
   <g font-size="13">
     <text x="240" y="176" fill="{DIM}" letter-spacing="1.6">OCCUPATION</text>
-    <text x="404" y="176" fill="{TEXT}">Cloud Consultant &#183; Platform &amp; DevSecOps</text>
+    <text x="404" y="176" fill="{TEXT}">Cloud Consultant &#183; Platform &amp; DevSecOps Engineer</text>
     <text x="240" y="198" fill="{DIM}" letter-spacing="1.6">LAST SEEN</text>
     <text x="404" y="198" fill="{TEXT}">Madrid, ES &#183; on the grid since 2019</text>
   </g>
